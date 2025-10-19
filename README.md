@@ -16,7 +16,7 @@ Rust/WebAssembly - Encryption logic
 
 1. Clone the repository and open it
 ```bash
-git clone https://gitea.kood.tech/andreskozelkov/invisibits.git
+git clone https://github.com/Tykion/invisibits.git
 cd invisibits
 ```
 
@@ -55,3 +55,4 @@ Encode and decode WAV files
 |4|Message Header|len 2 -> 00000010|
 |5|Message|'H'	01001000|
 |6|Message|'i'	01101001|
+
