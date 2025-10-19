@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    background: radial-gradient(circle, rgba(199, 197, 197, 1) 0%, rgba(78, 77, 77, 1) 100%, rgba(15, 14, 14, 1) 100%);
+    color: #fff;
+    /*overflow: hidden;*/
+}
+
+.container-lg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 5%;
+}
+
+input[type="file"],
+input[type="text"] {
+    width: 3000px;
+    max-width: 90%;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 1rem;
+    background: radial-gradient(circle, rgb(66, 66, 66) 0%, rgb(128, 127, 127) 100%, rgb(37, 37, 37) 100%);
+}
+
+input[type="text"] {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+input[type="file"] {
+    
+    width: 300px;
+    background-color: #444;
+    color: #fff;
+
+}
+
+input::placeholder {
+    color: #ccc;
+    text-align: center;
+    
+}
+
+#error-message {
+    color: #ff6666;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+button {
+  appearance: none;
+  background-color: #292929;
+  border: 2px solid #1A1A1A;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  will-change: transform;
+  
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+a.button {
+  display: inline-block;
+  appearance: none;
+  background-color: #292929;
+  border: 2px solid #1A1A1A;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+a.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+a.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
